@@ -22,17 +22,17 @@
     <default remote="openembedded" revision="master"  />
 
 
-    <project name="bitbake"  path="bitbake" revision="8a60106c6f7d586c793b965c5e9460b6016fab15" />
+    <project name="bitbake"  path="bitbake" revision="2a931d5e4ac092ce275f3a51e22b802689f511e6" />
 
-    <project name="meta-cloud-services" remote="orbitty" path="meta-cloud-services" revision="ddc9b4f8d9c149b611d12f3a46b668f387afdd82" />
+    <project name="meta-cloud-services" remote="yocto" path="meta-cloud-services" revision="62f3fed67f8cf07de5e342f57e4faf911f001c12" />
 
-    <project name="meta-ettus" remote="orbitty" path="meta-ettus" revision="ad1a6dc6522582688177a1467e5719ce4f1774de" />
+    <project name="meta-ettus" remote="orbitty" path="meta-ettus" revision="bde02779c5d5d42707a7593b62969d89bb5ed594" />
 
-    <project name="meta-mender" remote="mender" path="meta-mender" revision="531541c319c94253f2b00c26fbe95c3cdc9f5763" />
+    <project name="meta-mender" remote="mender" path="meta-mender" revision="82fff7126d39d04bdf8113df9fe2324616eda989" />
 
-    <project name="meta-mender-usrp" remote="orbitty" path="meta-mender-usrp" revision="dc6d06becd9d73bcdb021c9433ac6eb65fb2aaab" />
+    <project name="meta-mender-usrp" remote="orbitty" path="meta-mender-usrp" revision="7a16f066fa822b327ee64fd38731a0030b1180a1" />
 
-    <project name="meta-openembedded"  path="meta-oe" remote = "orbitty" revision="7cecba833d07ed67b97a3b2454123a77d8a0890b" />
+    <project name="meta-openembedded"  path="meta-oe" remote = "openembedded" revision="5d6d21e98ed594809169d2b2f6964e90a3369a96" />
 
     <project name="meta-qt4" remote="yocto" path="meta-qt4" revision="033509ebc1eb0d13290a7a3f0c2772ed58712c34" />
 
@@ -40,9 +40,7 @@
 
     <project name="meta-security" remote="yocto" path="meta-security" revision="b20c1242f79873e9da0fc0f5b3902f095dc923e8" />
 
-    <project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="f17852607bc73aea32fb10e089ac441fe7413397" />
-
-    <project name="openembedded-core"  path="oe-core" revision="404a04a862a71a5a0fb1c20b6bc9fc9c8b2bb98c" />
+    <project name="openembedded-core"  remote="openembedded" path="oe-core" revision="3b413a80578caacd9a7f405f3c51a3921d78a60d" />
 
     <project name="oe-meta-go" remote="mem" path="oe-meta-go" revision="514b2a80a2a4235687e92fb28328bb3e7c2d6c74" />
 
