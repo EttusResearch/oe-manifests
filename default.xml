@@ -24,13 +24,13 @@
 
     <project name="bitbake"  path="bitbake" revision="2a931d5e4ac092ce275f3a51e22b802689f511e6" />
 
-    <project name="meta-cloud-services" remote="yocto" path="meta-cloud-services" revision="62f3fed67f8cf07de5e342f57e4faf911f001c12" />
+    <project name="meta-cloud-services" remote="orbitty" path="meta-cloud-services" revision="68093849289064dde5e26ec1636371c21cafd109" />
 
-    <project name="meta-ettus" remote="orbitty" path="meta-ettus" revision="bde02779c5d5d42707a7593b62969d89bb5ed594" />
+    <project name="meta-ettus" remote="orbitty" path="meta-ettus" revision="2689e668baf433002a9a13355654c73b43c29d5b" />
 
     <project name="meta-mender" remote="mender" path="meta-mender" revision="82fff7126d39d04bdf8113df9fe2324616eda989" />
 
-    <project name="meta-mender-usrp" remote="orbitty" path="meta-mender-usrp" revision="7a16f066fa822b327ee64fd38731a0030b1180a1" />
+    <project name="meta-mender-usrp" remote="orbitty" path="meta-mender-usrp" revision="21bc54b7bb07cefb1b353cc875931f216cc750a6" />
 
     <project name="meta-openembedded"  path="meta-oe" remote = "openembedded" revision="5d6d21e98ed594809169d2b2f6964e90a3369a96" />
 
