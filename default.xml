@@ -26,11 +26,11 @@
 
     <project name="meta-cloud-services" remote="orbitty" path="meta-cloud-services" revision="68093849289064dde5e26ec1636371c21cafd109" />
 
-    <project name="meta-ettus" remote="orbitty" path="meta-ettus" revision="444417580e100d9fb15a945d1955e957b7f8374f" />
+    <project name="meta-ettus" remote="orbitty" path="meta-ettus" revision="02b2dd54e11c2a4670120f6ca9401d5017bb00c2" />
 
     <project name="meta-mender" remote="mender" path="meta-mender" revision="82fff7126d39d04bdf8113df9fe2324616eda989" />
 
-    <project name="meta-mender-usrp" remote="orbitty" path="meta-mender-usrp" revision="21bc54b7bb07cefb1b353cc875931f216cc750a6" />
+    <project name="meta-mender-usrp" remote="orbitty" path="meta-mender-usrp" revision="5c58b841b3028d44a276ff5cbd4ab3b99d15b8b1" />
 
     <project name="meta-openembedded"  path="meta-oe" remote = "openembedded" revision="5d6d21e98ed594809169d2b2f6964e90a3369a96" />
 
