@@ -26,7 +26,7 @@
 
     <project name="meta-cloud-services" remote="orbitty" path="meta-cloud-services" revision="68093849289064dde5e26ec1636371c21cafd109" />
 
-    <project name="meta-ettus" remote="orbitty" path="meta-ettus" revision="8a92d779ac930f48c39b6269296837bf3f7275c8" />
+    <project name="meta-ettus" remote="orbitty" path="meta-ettus" revision="85e420bf2df966c3cab48411ea938b7b969a200c" />
 
     <project name="meta-mender" remote="mender" path="meta-mender" revision="82fff7126d39d04bdf8113df9fe2324616eda989" />
 
