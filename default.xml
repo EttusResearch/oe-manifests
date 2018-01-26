@@ -21,20 +21,19 @@
 
     <default remote="openembedded" revision="master"  />
 
-
     <project name="bitbake"  path="bitbake" revision="2a931d5e4ac092ce275f3a51e22b802689f511e6" />
 
-    <project name="meta-cloud-services" remote="orbitty" path="meta-cloud-services" revision="68093849289064dde5e26ec1636371c21cafd109" />
+    <project name="meta-cloud-services" remote="mfischer" path="meta-cloud-services" revision="68093849289064dde5e26ec1636371c21cafd109" />
 
     <project name="meta-ettus" remote="orbitty" path="meta-ettus" revision="a4c0cc02eac8134fef51adced42ba822f968d7c9" />
 
     <project name="meta-mender" remote="mender" path="meta-mender" revision="82fff7126d39d04bdf8113df9fe2324616eda989" />
 
-    <project name="meta-mender-usrp" remote="orbitty" path="meta-mender-usrp" revision="03a710e7a63bd034dfbbf2a6ad19c33699fb1cb8" />
+    <project name="meta-mender-usrp" remote="ettus" path="meta-mender-usrp" revision="03a710e7a63bd034dfbbf2a6ad19c33699fb1cb8" />
 
     <project name="meta-openembedded"  path="meta-oe" remote = "openembedded" revision="5d6d21e98ed594809169d2b2f6964e90a3369a96" />
 
-    <project name="meta-qt4" remote="yocto" path="meta-qt4" revision="033509ebc1eb0d13290a7a3f0c2772ed58712c34" />
+    <project name="meta-qt4" remote="yocto" path="meta-qt4" revision="f313dbee2ac3d5fcc9801407947d3cb6cfb90b5d" />
 
     <project name="meta-sdr" remote="mfischer" path="meta-sdr" revision="ca706b0e0a4216432f2cf3366feced1aa5d871e3" />
 
