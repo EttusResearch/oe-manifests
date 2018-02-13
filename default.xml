@@ -17,8 +17,6 @@
 
     <remote name="mender" fetch="git://github.com/mendersoftware" />
 
-    <remote name="orbitty" fetch="git://orbitty.ni.corp.natinst.com" />
-
     <default remote="openembedded" revision="master"  />
 
     <project name="bitbake"  path="bitbake" revision="2a931d5e4ac092ce275f3a51e22b802689f511e6" />
