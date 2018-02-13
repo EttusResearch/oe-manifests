@@ -23,11 +23,11 @@
 
     <project name="meta-cloud-services" remote="mfischer" path="meta-cloud-services" revision="68093849289064dde5e26ec1636371c21cafd109" />
 
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="80e33f83900a79f9513cafcddb77c3fdb2c3c852" />
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="ce709e41896729397fe304a602c8aaa498135c6e" />
 
     <project name="meta-mender" remote="mender" path="meta-mender" revision="82fff7126d39d04bdf8113df9fe2324616eda989" />
 
-    <project name="meta-mender-usrp" remote="ettus" path="meta-mender-usrp" revision="03a710e7a63bd034dfbbf2a6ad19c33699fb1cb8" />
+    <project name="meta-mender-usrp" remote="ettus" path="meta-mender-usrp" revision="7b89221baaa6e9b7cd4f8b4d29b8d1dbfb3b92b0" />
 
     <project name="meta-openembedded"  path="meta-oe" remote = "openembedded" revision="5d6d21e98ed594809169d2b2f6964e90a3369a96" />
 
