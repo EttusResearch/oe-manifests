@@ -11,7 +11,7 @@
 
     <remote name="yocto" fetch="git://git.yoctoproject.org/" />
 
-    <remote name="ettus" fetch="git://git@github.com/EttusResearch" />
+    <remote name="ettus" fetch="git://github.com/EttusResearch" />
 
     <remote name="mem" fetch="git://github.com/mem" />
 
@@ -23,7 +23,7 @@
 
     <project name="meta-cloud-services" remote="mfischer" path="meta-cloud-services" revision="68093849289064dde5e26ec1636371c21cafd109" />
 
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="a4c0cc02eac8134fef51adced42ba822f968d7c9" />
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="80e33f83900a79f9513cafcddb77c3fdb2c3c852" />
 
     <project name="meta-mender" remote="mender" path="meta-mender" revision="82fff7126d39d04bdf8113df9fe2324616eda989" />
 
