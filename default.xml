@@ -23,7 +23,7 @@
 
     <project name="meta-cloud-services" remote="mfischer" path="meta-cloud-services" revision="68093849289064dde5e26ec1636371c21cafd109" />
 
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="0e6e457061400c339b635feec59d134fc0eff924" />
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="743e901f7133c706983ff59ea914967a52ad5237" />
 
     <project name="meta-mender" remote="mender" path="meta-mender" revision="82fff7126d39d04bdf8113df9fe2324616eda989" />
 
