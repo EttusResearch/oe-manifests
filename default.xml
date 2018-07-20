@@ -3,42 +3,24 @@
 <manifest>
     <remote name="openembedded" fetch="git://github.com/openembedded" />
 
-    <remote name="Xilinx" fetch="git://github.com/Xilinx" />
-
-    <remote name="balister" fetch="git://github.com/balister" />
-
-    <remote name="mfischer" fetch="git://github.com/mfischer" />
-
     <remote name="yocto" fetch="git://git.yoctoproject.org/" />
 
     <remote name="ettus" fetch="git://github.com/EttusResearch" />
-
-    <remote name="mem" fetch="git://github.com/mem" />
 
     <remote name="mender" fetch="git://github.com/mendersoftware" />
 
     <default remote="openembedded" revision="master"  />
 
-    <project name="bitbake"  path="bitbake" revision="2a931d5e4ac092ce275f3a51e22b802689f511e6" />
+    <project name="bitbake"  path="bitbake" revision="256990943075e89cb9aee2bc6488344b6783e07b" />
 
-    <project name="meta-cloud-services" remote="mfischer" path="meta-cloud-services" revision="68093849289064dde5e26ec1636371c21cafd109" />
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="7328db64815e411b01fed210382f73853b3bb473" />
 
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="f019299b103dfd5fed113de7c6c47d147dfe30a1" />
+    <project name="meta-mender" remote="mender" path="meta-mender" revision="e8758d8ce531165807bedf93a93f9932efd93c2f" />
 
-    <project name="meta-mender" remote="mender" path="meta-mender" revision="82fff7126d39d04bdf8113df9fe2324616eda989" />
+    <project name="meta-openembedded"  path="meta-oe" remote = "openembedded" revision="b0950aeff5b630256bb5e25ca15f4d59c115e7c1" />
 
-    <project name="meta-mender-usrp" remote="ettus" path="meta-mender-usrp" revision="7b89221baaa6e9b7cd4f8b4d29b8d1dbfb3b92b0" />
+    <project name="meta-security" remote="yocto" path="meta-security" revision="1e4b45ca888188b4eb838cb29b501ee004237552" />
 
-    <project name="meta-openembedded"  path="meta-oe" remote = "openembedded" revision="5d6d21e98ed594809169d2b2f6964e90a3369a96" />
-
-    <project name="meta-qt4" remote="yocto" path="meta-qt4" revision="f313dbee2ac3d5fcc9801407947d3cb6cfb90b5d" />
-
-    <project name="meta-sdr" remote="mfischer" path="meta-sdr" revision="ca706b0e0a4216432f2cf3366feced1aa5d871e3" />
-
-    <project name="meta-security" remote="yocto" path="meta-security" revision="b20c1242f79873e9da0fc0f5b3902f095dc923e8" />
-
-    <project name="openembedded-core"  remote="openembedded" path="oe-core" revision="3b413a80578caacd9a7f405f3c51a3921d78a60d" />
-
-    <project name="oe-meta-go" remote="mem" path="oe-meta-go" revision="514b2a80a2a4235687e92fb28328bb3e7c2d6c74" />
+    <project name="openembedded-core"  remote="openembedded" path="oe-core" revision="6aaed231cce829aa6684a7e10c7cf0e8b0504781" />
 
 </manifest>
