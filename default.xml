@@ -3,20 +3,24 @@
 <manifest>
     <remote name="openembedded" fetch="git://github.com/openembedded" />
 
-    <remote name="Xilinx" fetch="git://github.com/Xilinx" />
-
-    <remote name="balister" fetch="git://github.com/balister" />
-
     <remote name="yocto" fetch="git://git.yoctoproject.org/" />
 
-    <remote name="ettus" fetch="ssh://git@github.com/EttusResearch" />
+    <remote name="ettus" fetch="git://github.com/EttusResearch" />
+
+    <remote name="mender" fetch="git://github.com/mendersoftware" />
 
     <default remote="openembedded" revision="master"  />
 
-    <project name="meta-ettus-dev" remote="ettus" path="meta-ettus" revision="brimstone" />
-    <project name="bitbake"  path="bitbake" revision="349119f44cdad240dda7f4db45992e2539e1416f" />
-    <project name="openembedded-core"  path="oe-core" revision="80b3974081c4a8c604e23982a6db8fb32c616058" />
-    <project name="meta-openembedded"  path="meta-oe" revision="ea319464b673cbf9a416b582dc4766faeb998430" />
-    <project name="meta-sdr" remote="balister" path="meta-sdr" revision="7387cfdd157a76f1185be595a2415352ffe67616" />
+    <project name="bitbake"  path="bitbake" revision="256990943075e89cb9aee2bc6488344b6783e07b" />
+
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="d3a5013752991a9e5af1147d4f422c695c1af7c7" />
+
+    <project name="meta-mender" remote="mender" path="meta-mender" revision="e8758d8ce531165807bedf93a93f9932efd93c2f" />
+
+    <project name="meta-openembedded"  path="meta-oe" remote = "openembedded" revision="b0950aeff5b630256bb5e25ca15f4d59c115e7c1" />
+
+    <project name="meta-security" remote="yocto" path="meta-security" revision="1e4b45ca888188b4eb838cb29b501ee004237552" />
+
+    <project name="openembedded-core"  remote="openembedded" path="oe-core" revision="6aaed231cce829aa6684a7e10c7cf0e8b0504781" />
 
 </manifest>
