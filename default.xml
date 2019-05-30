@@ -13,14 +13,14 @@
 
     <project name="bitbake"  path="bitbake" revision="256990943075e89cb9aee2bc6488344b6783e07b" />
 
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="bc0bd5e7751b4f3dea40074764e6bb06011bbf7b" />
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="54036e94cfd66f5b4653fd4285858ea4626035c4" />
 
-    <project name="meta-mender" remote="mender" path="meta-mender" revision="abcd63229eb76a64f117d14dc9b2a60a659132eb" />
+    <project name="meta-mender" remote="mender" path="meta-mender" revision="1aedf5cdeeaa2a642d2e88c023ce571a7d63a796" />
 
     <project name="meta-openembedded"  path="meta-oe" remote = "openembedded" revision="8760facba1bceb299b3613b8955621ddaa3d4c3f" />
 
     <project name="meta-security" remote="yocto" path="meta-security" revision="2160c5de874234045ba4e201a0703185b65dbae4" />
 
-    <project name="openembedded-core"  remote="openembedded" path="oe-core" revision="a5dcf0c4bd9a0be2f2484b0b1b3e77f1f2128dfc" />
+    <project name="openembedded-core"  remote="openembedded" path="oe-core" revision="84f19e78d9b1f3d634cf1d46ce48f24670199d0b" />
 
 </manifest>
