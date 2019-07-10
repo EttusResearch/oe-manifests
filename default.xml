@@ -13,9 +13,9 @@
 
     <project name="bitbake"  path="bitbake" revision="256990943075e89cb9aee2bc6488344b6783e07b" />
 
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="54036e94cfd66f5b4653fd4285858ea4626035c4" />
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="c15b48b1fa5b5228d5629cf19799c06181af7e3c" />
 
-    <project name="meta-mender" remote="mender" path="meta-mender" revision="1aedf5cdeeaa2a642d2e88c023ce571a7d63a796" />
+    <project name="meta-mender" remote="mender" path="meta-mender" revision="defa27d65e1e49fc19987987df28bfc2cb0accfc" />
 
     <project name="meta-openembedded"  path="meta-oe" remote = "openembedded" revision="8760facba1bceb299b3613b8955621ddaa3d4c3f" />
 
