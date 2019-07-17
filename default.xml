@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <remote name="openembedded" fetch="git://github.com/openembedded" />
+
+    <remote name="yocto" fetch="git://git.yoctoproject.org/" />
+
+    <remote name="ettus" fetch="git://github.com/EttusResearch" />
+
+    <remote name="mender" fetch="git://github.com/mendersoftware" />
+
+    <!-- branch 1.40 -->
+    <project name="bitbake"  remote="openembedded" path="bitbake" revision="79e62eef1c93f742bf71e9f25db57fdd2ffedd02" />
+
+    <!-- branch thud -->
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="d60bfe6a96f6ed788d503a5f6b442ec6cf13f507" />
+
+    <!-- branch thud -->
+    <project name="meta-mender" remote="mender" path="meta-mender" revision="761a4c5277decb80154ca239745b40a206ffc05e" />
+
+    <!-- branch thud -->
+    <project name="meta-openembedded"  remote="openembedded" path="meta-oe" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" />
+
+    <!-- branch thud -->
+    <project name="meta-security" remote="yocto" path="meta-security" revision="31dc4e7532fa7a82060e0b50e5eb8d0414aa7e93" />
+
+    <!-- branch thud -->
+    <project name="openembedded-core"  remote="openembedded" path="oe-core" revision="f162d5bfe6eaeca24f441c83c87252c8d05744fc" />
+
+</manifest>
