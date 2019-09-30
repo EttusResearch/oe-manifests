@@ -13,7 +13,7 @@
 
     <project name="bitbake"  path="bitbake" revision="256990943075e89cb9aee2bc6488344b6783e07b" />
 
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="c15b48b1fa5b5228d5629cf19799c06181af7e3c" />
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="e764e480705d32529eab879074f426544f8972ea" />
 
     <project name="meta-mender" remote="mender" path="meta-mender" revision="defa27d65e1e49fc19987987df28bfc2cb0accfc" />
 
