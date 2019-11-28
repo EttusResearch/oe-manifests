@@ -31,6 +31,6 @@
     <project name="meta-qt4"  remote="yocto" path="meta-qt4" revision="b37d8b93924b314df3591b4a61e194ff3feb5517" />
 
     <!-- branch thud -->
-    <project name="meta-sdr"  remote="ettus" path="meta-sdr" revision="5bfb24d4005fa38fff9b772f6686dd5ad09b7703" />
+    <project name="meta-sdr"  remote="ettus" path="meta-sdr" revision="3986ac54d97debfa4be0a5ed14dd446dd0f24e22" />
 
 </manifest>
