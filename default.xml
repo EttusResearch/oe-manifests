@@ -12,8 +12,8 @@
     <!-- branch 1.40 -->
     <project name="bitbake"  remote="openembedded" path="bitbake" revision="b690030efc87850951e8e3ecf4ae3c1dd1dc9b63" />
 
-    <!-- branch uhd-3.15/thud -->
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="031b9f7caa12aa6b69ca399006707f791053ddc0" />
+    <!-- branch thud -->
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="6c8541094c5a0661dfba8d7191b2117caa89839c" />
 
     <!-- branch thud -->
     <project name="meta-mender" remote="mender" path="meta-mender" revision="465af66fcd9c15fea3a610d0272503562f6cbd44" />
