@@ -30,7 +30,7 @@
     <!-- branch thud -->
     <project name="meta-qt4"  remote="yocto" path="meta-qt4" revision="b37d8b93924b314df3591b4a61e194ff3feb5517" />
 
-    <!-- branch thud -->
+    <!-- branch sumo_libgnuradio-osmosdr (supports thud) -->
     <project name="meta-sdr"  remote="ettus" path="meta-sdr" revision="26ec7628b0a7b7d676b55429271fdfc8c9009b5b" />
 
 </manifest>
