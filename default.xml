@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <remote name="openembedded" fetch="git://github.com/openembedded" />
+
+    <remote name="yocto" fetch="git://git.yoctoproject.org/" />
+
+    <remote name="ettus" fetch="git://github.com/EttusResearch" />
+
+    <remote name="mender" fetch="git://github.com/mendersoftware" />
+
+    <remote name="meta-qt5" fetch="git://github.com/meta-qt5" />
+
+    <!-- branch zeus, tag 2019-10.2-zeus -->
+    <project name="bitbake"  remote="openembedded" path="bitbake" revision="ef29309d0b512b64d024e383e7baff22c727711c" />
+
+    <!-- branch zeus -->
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="zeus" />
+
+    <!-- branch zeus-next -->
+    <project name="meta-mender" remote="mender" path="meta-mender" revision="0e7672ae6bf21b048d3efa04884e90db899d34f3" />
+
+    <!-- branch zeus -->
+    <project name="meta-openembedded"  remote="openembedded" path="meta-oe" revision="bb65c27a772723dfe2c15b5e1b27bcc1a1ed884c" />
+
+    <!-- branch zeus -->
+    <project name="meta-security" remote="yocto" path="meta-security" revision="ecd8c30af6b1b957b4fa814d3f25c40f060b3ac1" />
+
+    <!-- branch master -->
+    <project name="meta-stm32" remote="ettus" path="meta-stm32" revision="2eb3aa0d2eae688c5aa8c73137ee650a84854969" />
+
+    <!-- branch zeus, tag 2019-10.2-zeus -->
+    <project name="openembedded-core"  remote="openembedded" path="oe-core" revision="f39285bb82e68945a81034b84da09ca1078d6719" />
+
+    <!-- branch zeus -->
+    <project name="meta-qt5"  remote="meta-qt5" path="meta-qt5" revision="0bdbb344bc0a7261d76d715e570ddc2ecfefae58" />
+
+    <!-- branch master (tempoarily branch fix-grc) -->
+    <project name="meta-sdr"  remote="ettus" path="meta-sdr" revision="00fd6f33ad5c24b5d8afb21bcf9b572d92ef3493" />
+
+</manifest>

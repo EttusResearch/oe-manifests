@@ -1,0 +1,24 @@
+From 34d05fb067e6221d5444da63977c9033d8d927e0 Mon Sep 17 00:00:00 2001
+From: Joerg Hofrichter <joerg.hofrichter@ni.com>
+Date: Wed, 26 Feb 2020 13:16:21 +0100
+Subject: [PATCH] meta-mender-core: add zeus to LAYERSERIES_COMPAT
+
+Signed-off-by: Joerg Hofrichter <joerg.hofrichter@ni.com>
+---
+ meta-mender-core/conf/layer.conf | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/meta-mender-core/conf/layer.conf b/meta-mender-core/conf/layer.conf
+index eb3728d..0762b91 100644
+--- a/meta-mender-core/conf/layer.conf
++++ b/meta-mender-core/conf/layer.conf
+@@ -17,5 +17,5 @@ BBFILE_PRIORITY_mender = "6"
+ 
+ INHERIT += "mender-setup"
+ 
+-LAYERSERIES_COMPAT_mender = "warrior"
++LAYERSERIES_COMPAT_mender = "warrior zeus"
+ LAYERDEPENDS_mender = "core"
+-- 
+2.17.1
+
