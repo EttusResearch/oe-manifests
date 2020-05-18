@@ -18,7 +18,7 @@
     <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="zeus" />
 
     <!-- branch zeus-next -->
-    <project name="meta-mender" remote="mender" path="meta-mender" revision="0e7672ae6bf21b048d3efa04884e90db899d34f3" />
+    <project name="meta-mender" remote="mender" path="meta-mender" revision="410ee6321859fabb8cc091209dd4a6d5270494fe" />
 
     <!-- branch zeus -->
     <project name="meta-openembedded"  remote="openembedded" path="meta-oe" revision="bb65c27a772723dfe2c15b5e1b27bcc1a1ed884c" />
