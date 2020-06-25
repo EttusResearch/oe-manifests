@@ -17,7 +17,7 @@
     <!-- branch zeus -->
     <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="zeus" />
 
-    <!-- branch zeus-next -->
+    <!-- branch zeus -->
     <project name="meta-mender" remote="mender" path="meta-mender" revision="7e3b40a98733f616834834c9f480418a58dd2c72" />
 
     <!-- branch zeus -->
