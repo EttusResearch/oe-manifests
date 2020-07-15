@@ -17,8 +17,8 @@
     <!-- branch zeus -->
     <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="zeus" />
 
-    <!-- branch zeus -->
-    <project name="meta-mender" remote="mender" path="meta-mender" revision="7e3b40a98733f616834834c9f480418a58dd2c72" />
+    <!-- branch zeus, tag zeus-v2020.06 -->
+    <project name="meta-mender" remote="mender" path="meta-mender" revision="8c451e26aa867ec62f8e8a3db30a3ab2cce6ef83" />
 
     <!-- branch zeus -->
     <project name="meta-openembedded"  remote="openembedded" path="meta-oe" revision="bb65c27a772723dfe2c15b5e1b27bcc1a1ed884c" />

@@ -9,6 +9,3 @@ filesystem:
     $ repo init -u git://github.com/EttusResearch/oe-manifests.git -b $GITBRANCH
     $ repo sync --force-sync
 
-Temporarily, it is also required to apply patches certain layers
-
-    $ ./apply-patches.sh
