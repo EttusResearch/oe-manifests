@@ -15,7 +15,7 @@
     <project name="bitbake"  remote="openembedded" path="bitbake" revision="ef29309d0b512b64d024e383e7baff22c727711c" />
 
     <!-- branch uhd-4.0/zeus -->
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="092c7d34c395e8c592c4bef030200dc196b4c22b" />
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="17a731985f4dac43590e04911c0010d5ceacaf17" />
 
     <!-- branch zeus, tag zeus-v2020.06 -->
     <project name="meta-mender" remote="mender" path="meta-mender" revision="8c451e26aa867ec62f8e8a3db30a3ab2cce6ef83" />
